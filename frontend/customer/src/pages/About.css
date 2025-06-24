@@ -1,0 +1,141 @@
+.abt-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.about-us {
+    position: absolute;
+    right: 0;
+    color: #171717;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-inline: 5rem;
+}
+
+.cover-abtimg {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-abtimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center; 
+}
+
+.about-main {
+  padding-left: 1rem;   
+  padding-right: 1rem;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+
+.about-semi {
+    padding-top: 2rem; 
+    font-size: 1.5rem;
+    line-height: 2rem; 
+    text-align: center; 
+}
+
+.os-text {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.main-log {
+    width: 100%;
+    height: auto;
+}
+
+.img-about {
+    min-width: 25rem;
+    max-width: 60%;
+}
+
+.text-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 0.9rem;
+    color: black;
+}
+
+.contacts-abt {
+    margin-top: 1.5rem;
+}
+
+.contacts-text {
+    font-size: 1.1rem;
+    
+}
+
+.email-text, .insta-text {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.link-about {
+    font-weight: 400;
+    text-decoration: underline;
+    font-size: 0.9rem;
+    color: #1e1ee9;
+}
+
+
+/* || MEDIUM */
+@media screen and (min-width: 1115px) {
+    .about-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 5rem;
+        margin-top: 5rem;
+        padding-left: 6rem;
+    }
+    
+    .img-about {
+        max-width: 40%;
+    }
+    
+    .text-cont {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+
+/* ABOUT-MAIN */
+@media (min-width: 640px) {
+  .about-main {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-main {
+    padding-left: 7vw;
+    padding-right: 7vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about-main {
+    padding-left: 9vw;
+    padding-right: 9vw;
+  }
+}
